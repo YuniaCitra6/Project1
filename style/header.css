@@ -30,11 +30,13 @@
 
 }
 
-.menu-wrapper .second-menu .extra-menu {
-    color: var(--secondprimary);
-    font-weight: 700;
-    background-color: var(--primary);
-    padding: 20px 30px;
-    border-radius: 40px;
+.cta .button {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: none;
+    border-radius: 50px;
+    flex-direction: column;
+    
 }
     
