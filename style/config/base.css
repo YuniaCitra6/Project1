@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bodycolor);
+}
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--primary);
+    font-family: 'Lobster', cursive;
+}
+
+p,
+span, a{
+    color: var(--primary); 
+    font-family: 'Exo 2', sans-serif
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+

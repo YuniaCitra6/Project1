@@ -1,0 +1,60 @@
+.benner-section {
+    padding: 100px 0;
+}
+
+.benner-section .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.benner-left {
+    flex-shrink: 0;
+    width: 472px;
+}
+
+.benner-desc {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: justify;
+    
+}
+
+.benner-section .button {
+    margin-top: 38px;
+}
+
+.button{
+    display: flex;
+    background-color: var(--primary);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 24px 48px; 
+    column-gap: 10px;
+    cursor: pointer;
+}
+.button span {
+    color: var(--secondprimary);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button:hover span {
+    color: var(--textprimary);
+    transition: color 0.4s ease-in-out;
+}
+
+.benner-img {
+    border-radius: 0 0 0 250px;
+    height: 700px;
+    flex-grow: 1;
+    overflow: hidden;
+}
+.benner-title {
+    color: var(--primary);
+    font-size: 85px;
+    font-weight: 400;
+    padding: 10px;
+}

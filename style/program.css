@@ -1,0 +1,48 @@
+.program-section {
+    padding: 100px 0;
+}
+
+.program-section .container {
+    gap: 75px;
+}
+
+.container .container-title {
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+}
+
+.program-box {
+    background-color: #73a23d;
+    border-radius: 66px;
+    text-align: center;
+    width: 688px;
+    height: 98px;
+}
+
+.program-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+
+.class-box {
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    row-gap: 55px;
+    
+}
+
+.class-box span {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    
+}
+
+.class-box p {
+    display: flex;
+    align-items: center;
+}
