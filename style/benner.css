@@ -56,5 +56,6 @@
     color: var(--primary);
     font-size: 85px;
     font-weight: 400;
-    padding: 10px;
+    line-height: normal;
+    font-style: normal;
 }
