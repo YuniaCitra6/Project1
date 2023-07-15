@@ -5,21 +5,23 @@
 
 .container .container-title {
     display: flex;
-    background-color: azure;
     justify-content: center;
+
 }
 
 .program-box {
     border-radius: 66px;
     text-align: center;
     width: 688px;
-    height: 98px;
 }
 
 .program-title {
     text-align: center;
     font-weight: 400;
     font-size: 50px;
+    margin-bottom: 20px;
+    border-radius: 66px;
+    background-color: #73a23d;
 
 }
 
@@ -28,21 +30,15 @@
     justify-content: center;
     align-content: space-around;
     background-color: #93c459;
-   
+   align-items: center;
     
     
-}
-
-.class-box img {
-    border-radius: 0 0 150px 0;
-
 }
 
 .class-box div {
     display: flex;
     flex-direction: column;
-    height: 513px;
-    align-items: center;
+    
 }
 
 .class-box span {
@@ -59,4 +55,12 @@
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+}
+
+.imgleft {
+    border-radius: 0 0 150px 0;
+}
+
+.imgright {
+    border-radius: 0 0 0 150px;
 }
