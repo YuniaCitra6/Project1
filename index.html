@@ -13,21 +13,21 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="container nav-wrapper">
-                <a href="#">
-                    <img src="Asset/Logo.svg" alt="">
-                </a>
-                <div class="menu-wrapper">
-                    <div class="menu">
-                        <a href="menu-item">Home</a>
-                        <a href="menu-item">Programs</a>
-                        <a href="menu-item">Galery</a>
-                    </div>
-                    <a class="cta" href="#"><button>Contact</button></a>
-                </div>
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="Asset/Logo.svg" alt="Logo">
             </div>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+            <div class="contact-button">
+                <button type="button">Contact</button>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -61,27 +61,31 @@
                     </div>
                 </div>
                 <div class="container-class">
-                    <div class="class-box">
-                        <img src="Asset/Rectangle 8 .png" alt="program-imgone" class="imgleft">
-                        <div class="class-title">
-                            <span> Special Qigong Class </span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Deserunt est magni odit consequatur accusamus sit libero doloremque nesciunt 
-                            omnis ut itaque et quisquam deleniti temporibus id aliquid modi, saepe facere.
-                            </p>
+                    <div class="program-left">
+                        <div class="class-box">
+                            <img src="Asset/Rectangle 8 .png" alt="program-imgone" class="imgleft">
+                            <div class="class-title">
+                                <span> Special Qigong Class </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Deserunt est magni odit consequatur accusamus sit libero doloremque nesciunt 
+                                omnis ut itaque et quisquam deleniti temporibus id aliquid modi, saepe facere.
+                                </p>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="class-box">
-                        <div class="class-title">
-                            <span> (50 hours)
-                            Intensive Training</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Deserunt est magni odit consequatur accusamus sit libero doloremque nesciunt 
-                            omnis ut itaque et quisquam deleniti temporibus id aliquid modi, saepe facere.
-                            </p>
+                    
+                    <div class="program-right">
+                        <div class="class-box">
+                            <div class="class-title">
+                                <span> (50 hours)
+                                Intensive Training</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Deserunt est magni odit consequatur accusamus sit libero doloremque nesciunt 
+                                omnis ut itaque et quisquam deleniti temporibus id aliquid modi, saepe facere.
+                                </p>
+                            </div>
+                            <img src="Asset/Rectangle 11.png" alt="program-imgtwo" class="imgright">
                         </div>
-                        <img src="Asset/Rectangle 11.png" alt="program-imgtwo" class="imgright">
                     </div>
                 </div>
             </div>
@@ -112,9 +116,13 @@
                         </p>
                     </div>
                 </div>
-                
             </div>
         </section>
+
+        <section class="contact-section">
+            
+        </section>
+
     </main>
 </body>
 </html>

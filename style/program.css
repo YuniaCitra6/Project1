@@ -29,9 +29,8 @@
     display: inline-flex;
     justify-content: center;
     align-content: space-around;
-    background-color: #93c459;
-   align-items: center;
-    
+    background-color: var(--primary);
+    align-items: center;
     
 }
 
@@ -63,4 +62,12 @@
 
 .imgright {
     border-radius: 0 0 0 150px;
+}
+
+.program-left {
+    border-radius: 0 100px 0 0;
+}
+
+.program-right {
+    border-radius: 100px 0 0 0;
 }
