@@ -35,6 +35,36 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
+    position: relative;
+}
+
+.nav ul li a::before,
+.nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--secondprimary);
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+.nav ul li a::before {
+    top: -3px;
+    transform-origin: left;
+}
+
+.nav ul li a::after {
+    bottom: -3px;
+    transform-origin: right;
+}
+
+.nav ul li a:hover::before,
+.nav ul li a:hover::after,
+.nav ul li a.active::before,
+.nav ul li a.active::after {
+    transform: scaleX(1);
 }
 
 .contact-button button {
